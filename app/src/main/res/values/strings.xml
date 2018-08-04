@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">home for you</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+ <string-array name="parent.student">
+     <item>
+         PARTENT
+     </item>
+     <item>
+         STUDENT
+     </item>
+ </string-array>
+    <string-array name="male">
+        <item>
+         FEMALE
+     </item>
+        <item>
+         MALE
+     </item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>

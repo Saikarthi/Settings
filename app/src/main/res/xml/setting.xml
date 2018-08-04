@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="karthi"
+        android:summary="usethis"
+        android:title="SETTING" />
+    <ListPreference
+        android:defaultValue="STUDENT"
+        android:entries="@array/parent.student"
+        android:entryValues="@array/parent.student"
+        android:title="parent or student"
+        android:key="list prefer"/>
+    <ListPreference
+        android:defaultValue="FEMALE"
+        android:entries="@array/male"
+        android:entryValues="@array/male"
+        android:title="male or female"
+        android:key="list prefer"/>
+
+
+</PreferenceScreen>
